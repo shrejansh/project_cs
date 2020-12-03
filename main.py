@@ -3,6 +3,7 @@ from tkinter import *
 
 
 def new_file():
+    
     pass
 def open_file():
     pass
@@ -19,7 +20,7 @@ if __name__ == "__main__":
     root.geometry("700x500")
     root.config(bg="#000000")
 
-    text=Text(root,bg="black",fg="white").pack(fill=BOTH,expand=True)
+    text=Text(root,bg="black",fg="white",font=("Helvetica","20")).pack(fill=BOTH,expand=True)
     file =None
 
     #menu
